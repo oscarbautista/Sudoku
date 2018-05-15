@@ -1,0 +1,47 @@
+doctype
+html
+
+  body
+    div(id="wrap")
+      div(id="content")
+        h1= "Sudoku Puzzle Maker"
+        h3= "Current Board"
+        p(id="board")= message
+        p= "This is what the puzzle currently looks like. This a fully solved board. Its values can be modified by going into the index.js file, changing the digit values, and reloading the server. If the changed values are valid, they will appear on the board, otherwise, the values will remain unchanged."
+
+  style.
+    body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      background-color: black;
+      color: white;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-top: 70px;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    #board {
+      margin-bottom: 20px;
+      white-space: pre;
+    }
+
+    #wrap {
+      display: flex;
+      justify-content: center;
+    }
+
+    #content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 415px;
+    }
