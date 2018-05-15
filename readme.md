@@ -1,5 +1,3 @@
-#Sudoku API
-
 The sudoku.js file contains all the methods of the Sudoku API needed for building and modifying sudoku puzzles.
 
 To demonstrate how it can be implemented, I have created an example using Node.js. In order to run the server, node.js, express, and pug must be installed. 
